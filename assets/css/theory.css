@@ -1,0 +1,111 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../../practice/img/fon.jpg") 0 0/100% 100% no-repeat fixed;
+}
+
+.theory-body {
+  position: relative;
+  max-width: 1100px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+}
+
+.theory-body h1 {
+  text-align: center;
+  margin: 0 0 70px 0;
+}
+
+.theory-body h3 {
+  text-indent: 40px;
+  margin: 0 0 15px 0;
+  text-align: justify;
+}
+
+.theory-body p {
+  text-indent: 50px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.theory-body p.li:before {
+  content: "- ";
+}
+
+.theory-body p.underline {
+  text-decoration: underline;
+}
+
+.theory-body img.poster {
+  display: block;
+  margin: 40px auto;
+}
+
+.theory-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.theory-body th {
+  text-align: left;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.theory-body td {
+  text-align: left;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.theory-body tr:nth-child(even) {
+  background-color: #fbfbfb;
+}
+
+.theory-body td:nth-child(1) {
+  font-weight: bold;
+}
+
+.back {
+  padding: 15px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.back span {
+  color: #000;
+  font-size: 15px;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0 70px 0;
+}
+
+.wrap__img p {
+  text-indent: 0;
+  text-align: center;
+}
+
+.wrap__text {
+  padding: 0 0 0 20px;
+}
+/*# sourceMappingURL=theory.css.map */
