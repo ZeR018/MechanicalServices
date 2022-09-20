@@ -5,24 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/css/null.css">
-    <link rel="stylesheet" href="../src/css/theory.css">
+    <link rel="stylesheet" href="../MechanicalServices/css/null.css">
+    <link rel="stylesheet" href="../MechanicalServices/css/theory.css">
     <title>Document</title>
 </head>
-<body>
+<body>  
     <div class="wrapper">
         <div class="theory-body">
+            <h1>Содержание и порядок проведения приверок ТО-1 на аппаратуре коммутации и жизнеобеспечения АК Ф3С</h1>
+            <h3 anchor="1">1. Проверка работы системы вентиляции
+            </h3>
+            <p>На блоке ФБ364 включить тумблер ВХОД-ВЫХОД под надписью ВЕНТИЛЯЦИЯ. При этом с определенной задержкой должны
+                включиться вентиляторы шкафов и на блоке ФБ364 должны гореть лампы ВХОД-ВЫХОД под надписью ВЕНТИЛЯЦИЯ (Рис.1.).</p>
+            <div style="display: flex; justify-content: space-between;"> 
+                <div style="width: 450px; display: block; margin: 0;">
+                    <img class="poster" src="C:/Users/nedos/MechanicalServices/img/img1.jpg" alt="" style="width: 480px; float:left; margin: 0;"/>
+                    <p>Рис.1. Передняя панель блока ФБ364.
+                        (Вентиляторы шкафов включены).
+                    </p>
+                </div>
+                <div style="width: 450px; display: block; margin: 0;">
+                    <img class="poster" src="C:/Users/nedos/MechanicalServices/img/img2.jpg" alt="" style="width: 480px; float:right; margin: 0;"/>
+                    <p>Рис.2. Передняя панель блока ФБ364.
+                        (Вентиляторы шкафов выключены).
+                    </p>
+                </div>
+            </div><br>       
+        <p>На блоке ФБ364 выключить тумблер ВХОД-ВЫХОД под надписью ВЕНТИЛЯЦИЯ.
+            Вентиляторы шкафов должны выключиться и на блоке ФБ364 не должны гореть лампы ВХОД-ВЫХОД под надписью ВЕНТИЛЯЦИЯ (Рис.2.). </p>
+        <p>Убедиться, что при включении любого шкафа входной и выходной вентиляторы также включаются с определенной задержкой, для чего
+            поочередно в отдельности установить тумблеры ВКЛ-ВЫКЛ-ДИСТ блоков ФР361, ФМ361, ФН361 в положение ВКЛ, а затем ВЫКЛ.</p><br>
+        <p> <strong> <i>Проверка вентилятора контейнера</i></strong></p>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="width: 450px; display: block; margin: 0;">
+                <img class="poster" src="C:/Users/nedos/MechanicalServices/img/img.3.jpg" alt="" style="width: 480px; float:left; margin: 0;"/>
+                <p>Рис.3. Передняя панель блока ФБ364.
+                    (Вентилятор контейнера включен).
+                </p>
+            </div>
+            <div style="width: 450px; display: block; margin: 0;">
+                <img class="poster" src="C:/Users/nedos/MechanicalServices/img/img4.jpg" alt="" style="width: 480px; float:right; margin: 0;"/>
+                <p>Рис.4. Передняя панель блока ФБ364.
+                    (Вентилятор контейнера выключен).
+                </p>
+            </div>
+        </div>     
+        <p>
+            Включить тумблер КОНТЕЙНЕР под надписью ВЕНТИЛЯЦИЯ и убедиться, что вентилятор контейнера включился, а на блоке ФБ364 горит
+            лампа КОНТЕЙНЕР под надписью ВЕНТИЛЯЦИЯ (Рис.3).
+        </p>    
+        <p>
+            Выключить тумблер КОНТЕЙНЕР и убедиться, что вентилятор контейнера выключился, а на блоке ФБ364 не горит лампа КОНТЕЙНЕР
+            под надписью ВЕНТИЛЯЦИЯ (Рис.4).
+        </p><br>    
+        <p> <strong> <i>Проверка схемы управления заслонками</i></strong></p>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="width: 450px; display: block; margin: 0;">
+                <img class="poster" src="C:/Users/nedos/MechanicalServices/img/img5.jpg" alt="" style="width: 480px; float:left; margin: 0;"/>
+                <p>Рис.5. Передняя панель блока ФБ364.
+                    (Заслонки закрыты).
+                </p>
+            </div>
+            <div style="width: 450px; display: block; margin: 0;">
+                <img class="poster" src="C:/Users/nedos/MechanicalServices/img/img6.jpg" alt="" style="width: 480px; float:right; margin: 0;"/>
+                <p>Рис.6. Передняя панель блока ФБ364.
+                    (Заслонки открыты).
+                </p>
+            </div>
+        </div>    
 
-            <!-- <object src="t_24_z_2.pdf" width="800px" height="2100px" /> -->
-            <iframe src="C:\Users\nedos\MechanicalServices\t_24_z_2.pdf" 
-            style="width: 1600px; height: 1600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>
         </div>
         <a href="../MechanicalServices/index.html" class="back">
             <span>В МЕНЮ</span>
         </a>
     </div>
 
-    <script src="../libs/jquery/jquery-3.6.0.min.js"> </script>
+    <script src="../MechanicalServices/libs/jquery/jquery-3.6.0.min.js"> </script>
     <script src="theory.js"></script>
 
 </body>
