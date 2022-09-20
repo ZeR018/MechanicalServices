@@ -10,7 +10,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url("../../practice/img/fon.jpg") 0 0/100% 100% no-repeat fixed;
+  background: url("../images/img/fon.jpg") 0 0/100% 100% no-repeat fixed;
 }
 
 .theory-body {
