@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,KAAK,EAAE,KAAK;CAAG",
+    "sources": [
+        "../../practice/block364/sass/check1.sass"
+    ],
+    "names": [],
+    "file": "check1.css"
+}

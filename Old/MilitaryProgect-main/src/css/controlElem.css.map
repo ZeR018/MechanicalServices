@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACT,QAAQ,EAAE,QAAQ;EAClB,gBAAgB,EAAE,wBAAwB;EAC1C,MAAM,EAAE,cAAc;EACtB,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,OAAO;CAII;;AAVvB,AAOI,YAPQ,AAOP,QAAQ,CAAC;EACN,OAAO,EAAE,CAAC;CAAG;;AARrB,AASI,YATQ,AASP,MAAM,CAAC;EACJ,OAAO,EAAE,CAAC;CAAG",
+    "sources": [
+        "../../practice/sass/controlElem.sass"
+    ],
+    "names": [],
+    "file": "controlElem.css"
+}

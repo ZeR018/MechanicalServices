@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,KAAK;CAAG",
+    "sources": [
+        "../../practice/block362/sass/block362.sass"
+    ],
+    "names": [],
+    "file": "block362.css"
+}

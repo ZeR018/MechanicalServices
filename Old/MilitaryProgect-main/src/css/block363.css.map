@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,KAAK;CAAG;;AAEvB,AAAA,UAAU,CAAC;EACP,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,KAAK;EACX,KAAK,EAAE,IAAI;CAAG",
+    "sources": [
+        "../../practice/block363/sass/block363.sass"
+    ],
+    "names": [],
+    "file": "block363.css"
+}

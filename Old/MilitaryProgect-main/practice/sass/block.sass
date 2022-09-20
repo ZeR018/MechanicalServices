@@ -1,0 +1,28 @@
+html,body
+    overflow-y: scroll
+    overflow-x: hidden
+
+::-webkit-scrollbar
+    width: 0
+
+.wrapper
+    display: flex
+    justify-content: center
+    background: url("../../practice/img/fon.jpg") 0 0/100% 100% no-repeat fixed
+
+.back
+    padding: 15px 20px
+    display: block
+    position: fixed
+    top: 0
+    left: 0
+    background-color: grey
+    cursor: pointer
+    span
+        color: #000
+        font-size: 15px
+
+.img-body
+    position: relative
+    & .elem
+        position: absolute

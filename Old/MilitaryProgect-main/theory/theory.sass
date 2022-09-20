@@ -1,0 +1,78 @@
+body
+    overflow-y: scroll
+    overflow-x: hidden
+
+// ::-webkit-scrollbar
+//     width: 0
+
+.wrapper
+    display: flex
+    justify-content: center
+    background: url("../../practice/img/fon.jpg") 0 0/100% 100% no-repeat fixed
+
+.theory-body
+    position: relative
+    max-width: 1100px
+    background-color: rgba(255, 255, 255, 0.9)
+    padding: 50px
+    h1
+        text-align: center
+        margin: 0 0 70px 0
+    h3
+        text-indent: 40px
+        margin: 0 0 15px 0
+        text-align: justify
+
+    p
+        text-indent: 50px
+        font-size: 18px
+        text-align: justify
+        line-height: 25px
+        &.li
+            &:before
+                content: "- "
+        &.underline
+            text-decoration: underline
+    img
+        &.poster
+            display: block
+            margin: 40px auto
+    table
+        border-collapse: collapse
+        border-spacing: 0
+        width: 100%
+        border: 1px solid #ddd
+    th
+        text-align: left
+        font-size: 24px
+        padding: 20px
+    td
+        text-align: left
+        padding: 16px
+        font-size: 20px
+    tr:nth-child(even)
+        background-color: #fbfbfb
+    td:nth-child(1)
+        font-weight: bold
+
+.back
+    padding: 15px
+    display: block
+    position: fixed
+    top: 0
+    left: 0
+    background-color: grey
+    cursor: pointer
+    span
+        color: #000
+        font-size: 15px
+
+.wrap
+    display: flex
+    margin: 20px 0 70px 0
+    &__img
+        & p
+            text-indent: 0
+            text-align: center
+    &__text
+        padding: 0 0 0 20px

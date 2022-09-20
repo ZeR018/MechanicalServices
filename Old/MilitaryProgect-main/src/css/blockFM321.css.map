@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACP,SAAS,EAAE,KAAK;CAAG",
+    "sources": [
+        "../../practice/blockFM321/sass/blockFM321.sass"
+    ],
+    "names": [],
+    "file": "blockFM321.css"
+}

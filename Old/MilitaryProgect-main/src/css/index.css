@@ -1,0 +1,262 @@
+*,
+*::before,
+*::after {
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main__body {
+  background: url("../../practice/img/_fon.jpg") 0 0/100% 100% no-repeat fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.main__menu {
+  margin: 50px 0 0 0;
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 1200px;
+  flex: 0 1 1200px;
+}
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__list>li {
+  position: relative;
+}
+
+.menu__list>li:last-child {
+  margin-left: auto;
+}
+
+.menu__link {
+  padding: 10px 20px;
+  display: block;
+}
+
+.menu__link:hover {
+  cursor: pointer;
+  background-color: #296e96;
+}
+
+.menu__link span {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 0;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+.sub-menu__list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  min-width: 100%;
+}
+
+.sub-menu__list_two,
+.sub-menu__list_three {
+  width: 240px;
+}
+
+.sub-menu__list_one {
+  width: 200px;
+}
+
+.sub-menu__list_one .sub-sub-menu__list {
+  width: 350px;
+}
+
+.sub-menu__list._active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sub-menu__list>li {
+  position: relative;
+  display: block;
+}
+
+.sub-menu__link {
+  position: relative;
+  cursor: pointer;
+  display: block;
+  padding: 10px 20px 15px 10px;
+}
+
+.sub-menu__link:hover {
+  background-color: #f0e6ce;
+}
+
+.sub-menu__link:hover::before {
+  display: block;
+}
+
+.sub-menu__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #296e96;
+  display: none;
+}
+
+.sub-menu__link span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000;
+}
+
+.sub-sub-menu__list {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sub-sub-menu__list_third {
+  width: 100px;
+}
+
+.sub-sub-menu__list>li {
+  position: relative;
+  display: block;
+}
+
+.sub-sub-menu__list._active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sub-sub-menu__link {
+  display: block;
+  padding: 10px 35px 15px 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sub-sub-menu__link:hover {
+  background-color: #f0e6ce;
+}
+
+.sub-sub-menu__link:hover::before {
+  display: block;
+}
+
+.sub-sub-menu__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #296e96;
+  display: none;
+}
+
+.sub-sub-menu__link span {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.sub-sub-sub-menu__list {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sub-sub-sub-menu__list>li {
+  position: relative;
+  display: block;
+}
+
+.sub-sub-sub-menu__list._active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sub-sub-sub-menu__link {
+  display: block;
+  padding: 10px 35px 15px 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sub-sub-sub-menu__link:hover {
+  background-color: #f0e6ce;
+}
+
+.sub-sub-sub-menu__link:hover::before {
+  display: block;
+}
+
+.sub-sub-sub-menu__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #296e96;
+  display: none;
+}
+
+.sub-sub-sub-menu__link span {
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=index.css.map */
